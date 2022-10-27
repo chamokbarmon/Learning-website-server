@@ -1,0 +1,26 @@
+[
+    {
+      "id": "01",
+      "name": "C Programming Course"
+    },
+    {
+      "id": "02",
+      "name": "C++ Programming Course"
+    },
+    {
+      "id": "03",
+      "name": "Java Programming Course "
+    },
+    {
+      "id": "04",
+      "name": "JavaScript Programming Course"
+    },
+    {
+      "id": "05",
+      "name": "Python Programming Course"
+    },
+    {
+      "id": "06",
+      "name": "C# Programming Course"
+    }
+  ]
