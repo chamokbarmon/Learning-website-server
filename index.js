@@ -13,10 +13,14 @@ app.get('/',(req,res)=>{
 app.get('/Courses',(req,res)=>{
     res.send(Courses)
 })
+app.get('/program',(req,res)=>{
+    res.send(program)
+})
 app.get('/program/:id',(req,res)=>{
-    const id = req.params.id;
-    const seletedProgram = program.find(pro=>pro._id===id);
-    res.send(seletedProgram)
+     const id = req.params.id;
+     const selectedProgram = program.find(p=>p._id===id);
+     res.send(selectedProgram)
+     
 })
 app.listen(port,()=>{
     console.log('news data run',port)
