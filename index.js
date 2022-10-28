@@ -22,3 +22,7 @@ app.get('/program/:id',(req,res)=>{
      res.send(selectedProgram)
      
 })
+app.listen(port,()=>{
+    console.log('news data run',port)
+    
+})
