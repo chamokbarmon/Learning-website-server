@@ -16,7 +16,7 @@ app.get('/Courses',(req,res)=>{
 app.get('/program',(req,res)=>{
     res.send(program)
 })
-app.get('/program/:id',(req,res)=>{
+app.get('/pro/:id',(req,res)=>{
      const id = req.params.id;
      const selectedProgram = program.find(p=>p._id===id);
      res.send(selectedProgram)
